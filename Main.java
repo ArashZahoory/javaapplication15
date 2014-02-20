@@ -5,17 +5,23 @@
 
 package javaapplication15;
 
+import java.util.*;
+
 /**
  *
  * @author arashzahoory
  */
-public class Main {
+public class Main
+{
+    public static void main (String [] args)
+    {
+        ArrayList<Process> processArrayList = new ArrayList<Process>();
+        ProcessGenerator newProcesses = new ProcessGenerator(10);
+        processArrayList = newProcesses.generateProcesses();
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-System.out.println("");
+
+
+
+
     }
-
 }
